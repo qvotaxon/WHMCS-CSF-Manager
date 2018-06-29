@@ -18,10 +18,10 @@ if(!defined('WHMCS_ROOT_PATH')) define('WHMCS_ROOT_PATH', realpath(JCSF_ROOT_PAT
 function csfmanager_config() 
 {
 	return array(
-		'name' 		=> 'Jetserver CSF Manager',
+		'name' 		=> 'XENOMEDIA CSF Manager',
 		'description' 	=> 'Manage your servers ConfigServer Firewall & Security',
-		'version' 	=> '1.1.4',
-		'author' 	=> 'Idan Ben-Ezra',
+		'version' 	=> '1.2.0',
+		'author' 	=> 'XENOMEDIA',
 		'language' 	=> 'english',
 	);
 }
