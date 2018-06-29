@@ -35,7 +35,6 @@ class jcsf_firewall_manage extends jcsf_firewall_default
 		{
 			$servers[$server_details['id']] = array_merge($server_details, array('password' => decrypt($server_details['password'], $cc_encryption_hash)));
 		}
-		mysqli_free_result($result);
 		
 		$server_details = $servers[$server_id];
 		
